@@ -78,8 +78,9 @@ export default function Navigation() {
                   className={`px-3 py-2 text-sm font-medium transition-colors ${
                     activeSection === item.id
                       ? "text-blue-600"
-                      : "text-gray-600 hover:text-blue-600"
+                      : "hover:text-blue-600"
                   }`}
+                  style={{ color: activeSection === item.id ? undefined : "#444444" }}
                   data-testid={`nav-${item.id}`}
                 >
                   {item.label}
@@ -109,7 +110,8 @@ export default function Navigation() {
                     <button
                       key={item.id}
                       onClick={() => scrollToSection(item.id)}
-                      className="text-left px-3 py-2 text-base font-medium text-gray-600 hover:text-blue-600 transition-colors"
+                      className="text-left px-3 py-2 text-base font-medium hover:text-blue-600 transition-colors"
+                      style={{ color: "#444444" }}
                       data-testid={`mobile-nav-${item.id}`}
                     >
                       {item.label}
