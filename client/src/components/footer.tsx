@@ -89,7 +89,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection("contact")}
-                  className="hover:text-yellow-500 transition-colors text-left"
+                  className="hover:community-color transition-colors text-left"
                   data-testid="footer-donate-link"
                 >
                   Donate

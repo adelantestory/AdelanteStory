@@ -87,7 +87,7 @@ export default function Navigation() {
               ))}
               <Button 
                 onClick={() => scrollToSection("contact")}
-                className="bg-red-600 hover:bg-red-700 text-white"
+                className="bg-community-color hover:bg-community-color text-white"
                 data-testid="donate-button"
               >
                 Donate
