@@ -38,6 +38,7 @@
   --adelante-brand-color: rgb(6, 51, 64);
   --adelante-hero-title-color: rgb(31, 41, 55);
   --adelante-community-color: rgb(190, 80, 89);
+  --adelante-education-color: rgb(243, 182, 38);
 }
 
 .dark {
@@ -157,4 +158,16 @@
 
 .bg-community-color:hover {
   background-color: rgb(170, 70, 79);
+}
+
+.education-color {
+  color: var(--adelante-education-color);
+}
+
+.bg-education-color {
+  background-color: var(--adelante-education-color);
+}
+
+.bg-education-color:hover {
+  background-color: rgb(223, 162, 18);
 }

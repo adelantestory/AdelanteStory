@@ -39,9 +39,9 @@ export default function ProgramsSection() {
     switch (color) {
       case "blue":
         return {
-          icon: "text-blue-600",
-          button: "bg-blue-600 hover:bg-blue-700",
-          subtitle: "text-blue-600"
+          icon: "education-color",
+          button: "bg-education-color hover:bg-education-color",
+          subtitle: "education-color"
         };
       case "red":
         return {
