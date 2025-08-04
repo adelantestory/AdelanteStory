@@ -61,7 +61,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection("home")}
-              className="text-2xl font-bold adelante-brand hover:opacity-80 transition-opacity"
+              className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold adelante-brand hover:opacity-80 transition-opacity"
               data-testid="logo-button"
             >
               Adelante Story Foundation

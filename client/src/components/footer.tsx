@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="text-2xl font-bold adelante-brand mb-4" data-testid="footer-logo">
+            <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold adelante-brand mb-4" data-testid="footer-logo">
               Adelante Story Foundation
             </div>
             <p className="text-gray-300 mb-6 max-w-md" data-testid="footer-description">
