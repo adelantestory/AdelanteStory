@@ -37,6 +37,7 @@
   --adelante-gray-900: hsl(215, 28%, 17%);
   --adelante-brand-color: rgb(6, 51, 64);
   --adelante-hero-title-color: rgb(31, 41, 55);
+  --adelante-community-color: rgb(190, 80, 89);
 }
 
 .dark {
@@ -144,4 +145,16 @@
 
 .hero-title-color {
   color: var(--adelante-hero-title-color);
+}
+
+.community-color {
+  color: var(--adelante-community-color);
+}
+
+.bg-community-color {
+  background-color: var(--adelante-community-color);
+}
+
+.bg-community-color:hover {
+  background-color: rgb(170, 70, 79);
 }

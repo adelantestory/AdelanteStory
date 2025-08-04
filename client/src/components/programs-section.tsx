@@ -45,9 +45,9 @@ export default function ProgramsSection() {
         };
       case "red":
         return {
-          icon: "text-red-600",
-          button: "bg-red-600 hover:bg-red-700",
-          subtitle: "text-red-600"
+          icon: "community-color",
+          button: "bg-community-color hover:bg-community-color",
+          subtitle: "community-color"
         };
       case "orange":
         return {
