@@ -31,7 +31,7 @@ export default function HeroSection() {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 
-          className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6"
+          className="text-4xl md:text-6xl lg:text-7xl font-bold hero-title-color mb-6"
           data-testid="hero-title"
         >
           Helping People Connect To Their Onward!
