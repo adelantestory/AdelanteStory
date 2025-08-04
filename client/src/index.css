@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(0, 0%, 9%);
+  --muted: hsl(210, 40%, 98%);
+  --muted-foreground: hsl(215, 16%, 47%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 9%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(0, 0%, 9%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(210, 40%, 98%);
+  --secondary-foreground: hsl(0, 0%, 9%);
+  --accent: hsl(210, 40%, 98%);
+  --accent-foreground: hsl(0, 0%, 9%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(207, 90%, 54%);
+  --radius: 0.5rem;
+  
+  /* Adelante custom colors */
+  --adelante-blue: hsl(207, 90%, 54%);
+  --adelante-red: hsl(0, 74%, 50%);
+  --adelante-orange: hsl(43, 96%, 56%);
+  --adelante-gray-50: hsl(210, 40%, 98%);
+  --adelante-gray-100: hsl(210, 40%, 96%);
+  --adelante-gray-600: hsl(215, 16%, 47%);
+  --adelante-gray-800: hsl(215, 25%, 27%);
+  --adelante-gray-900: hsl(215, 28%, 17%);
+}
+
+.dark {
+  --background: hsl(0, 0%, 4%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 64%);
+  --popover: hsl(0, 0%, 4%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(0, 0%, 4%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 15%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(0, 0%, 15%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(0, 0%, 15%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(207, 90%, 54%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utility classes */
+.adelante-blue {
+  color: var(--adelante-blue);
+}
+
+.bg-adelante-blue {
+  background-color: var(--adelante-blue);
+}
+
+.adelante-red {
+  color: var(--adelante-red);
+}
+
+.bg-adelante-red {
+  background-color: var(--adelante-red);
+}
+
+.adelante-orange {
+  color: var(--adelante-orange);
+}
+
+.bg-adelante-orange {
+  background-color: var(--adelante-orange);
+}
+
+.text-adelante-gray-50 {
+  color: var(--adelante-gray-50);
+}
+
+.bg-adelante-gray-50 {
+  background-color: var(--adelante-gray-50);
+}
+
+.text-adelante-gray-100 {
+  color: var(--adelante-gray-100);
+}
+
+.bg-adelante-gray-100 {
+  background-color: var(--adelante-gray-100);
+}
+
+.text-adelante-gray-600 {
+  color: var(--adelante-gray-600);
+}
+
+.text-adelante-gray-800 {
+  color: var(--adelante-gray-800);
+}
+
+.text-adelante-gray-900 {
+  color: var(--adelante-gray-900);
+}
+
+.bg-adelante-gray-800 {
+  background-color: var(--adelante-gray-800);
+}
