@@ -30,7 +30,7 @@ export default function ProgramsSection() {
       description: "Building bridges between talent and opportunity through strategic partnerships, workforce development initiatives, and professional networking programs.",
       icon: Handshake,
       color: "orange",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
     }
   ];
 
