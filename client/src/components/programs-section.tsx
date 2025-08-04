@@ -51,9 +51,9 @@ export default function ProgramsSection() {
         };
       case "orange":
         return {
-          icon: "text-yellow-500",
-          button: "bg-yellow-500 hover:bg-yellow-600",
-          subtitle: "text-yellow-500"
+          icon: "connection-color",
+          button: "bg-connection-color hover:bg-connection-color",
+          subtitle: "connection-color"
         };
       default:
         return {
