@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, Heart, Handshake } from "lucide-react";
+import communityImage from "@assets/community-3x2-1-scaled_1754344789769.jpg";
 
 export default function ProgramsSection() {
   const programs = [
@@ -20,7 +21,7 @@ export default function ProgramsSection() {
       description: "Providing essential support services, resources, and advocacy for our most vulnerable community members through direct assistance and collaborative partnerships.",
       icon: Heart,
       color: "red",
-      image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+      image: communityImage
     },
     {
       id: "connection",
