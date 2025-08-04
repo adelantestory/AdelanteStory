@@ -47,7 +47,7 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             onClick={() => scrollToSection("story")}
-            className="border-2 border-white bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all"
+            className="border-2 border-white bg-yellow-500 hover:bg-white hover:text-yellow-500 text-white px-8 py-4 text-lg font-semibold transition-all"
             data-testid="learn-story-button"
           >
             Learn Our Story
