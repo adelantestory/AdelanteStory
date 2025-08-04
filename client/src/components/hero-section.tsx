@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import heroImage from "@assets/embrace-scaled_1754341547885.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -22,7 +23,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="absolute inset-0">
         <img 
-          src="@assets/embrace-scaled_1754341547885.jpg" 
+          src={heroImage} 
           alt="People embracing and supporting each other at sunset" 
           className="w-full h-full object-cover"
         />
