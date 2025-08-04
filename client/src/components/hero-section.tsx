@@ -55,7 +55,7 @@ export default function HeroSection() {
           <Button 
             onClick={() => scrollToSection("contact")}
             variant="outline"
-            className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold transition-all"
+            className="border-2 border-white text-white bg-connection-color hover:bg-white hover:connection-color px-8 py-4 text-lg font-semibold transition-all"
             data-testid="get-involved-button"
           >
             Get Involved
