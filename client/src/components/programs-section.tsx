@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, Heart, Handshake } from "lucide-react";
 import communityImage from "@assets/community-3x2-1-scaled_1754344789769.jpg";
+import educationImage from "@assets/education-3x2-1-scaled_1754345027392.jpg";
 
 export default function ProgramsSection() {
   const programs = [
@@ -12,7 +13,7 @@ export default function ProgramsSection() {
       description: "Breaking down digital barriers and creating pathways to educational success through technology access, digital literacy training, and mentorship programs.",
       icon: GraduationCap,
       color: "blue",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+      image: educationImage
     },
     {
       id: "community",
