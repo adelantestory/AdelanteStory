@@ -36,15 +36,6 @@ jobs:
         working-directory: client
         run: npm run build
 
-      - name: Get Id Token
-        uses: actions/github-script@v6
-        id: idtoken
-        with:
-          script: |
-            const coredemo = require('@actions/core')
-            return await coredemo.getIDToken()
-          result-encoding: string
-
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -54,7 +45,6 @@ jobs:
           app_location: "/client"
           api_location: ""
           output_location: "dist"
-          github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
