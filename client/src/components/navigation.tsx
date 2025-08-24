@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -86,13 +87,14 @@ export default function Navigation() {
                   {item.label}
                 </button>
               ))}
-              <Button 
-                onClick={() => scrollToSection("contact")}
-                className="bg-community-color hover:bg-community-color text-white"
-                data-testid="donate-button"
-              >
-                Donate
-              </Button>
+              <Link href="/donate">
+                <Button 
+                  className="bg-community-color hover:bg-community-color text-white"
+                  data-testid="donate-button"
+                >
+                  Donate
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -117,13 +119,14 @@ export default function Navigation() {
                       {item.label}
                     </button>
                   ))}
-                  <Button 
-                    onClick={() => scrollToSection("contact")}
-                    className="bg-red-600 hover:bg-red-700 text-white mt-4"
-                    data-testid="mobile-donate-button"
-                  >
-                    Donate
-                  </Button>
+                  <Link href="/donate">
+                    <Button 
+                      className="bg-red-600 hover:bg-red-700 text-white mt-4 w-full"
+                      data-testid="mobile-donate-button"
+                    >
+                      Donate
+                    </Button>
+                  </Link>
                 </div>
               </SheetContent>
             </Sheet>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 import heroImage from "@assets/embrace-scaled_1754341547885.jpg";
 
 export default function HeroSection() {

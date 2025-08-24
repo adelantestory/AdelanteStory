@@ -1,0 +1,29 @@
+{
+  "name": "adelante-story-api",
+  "version": "1.0.0",
+  "description": "Azure Functions for AdelanteStory donation processing",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "stripe": "^14.11.0",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "nodemailer": "^6.9.7",
+    "@azure/communication-email": "^1.0.0",
+    "zod": "^3.22.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@azure/functions-core-tools": "^4.0.5455",
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.7",
+    "@types/nodemailer": "^6.4.14",
+    "typescript": "^5.0.0"
+  }
+}
